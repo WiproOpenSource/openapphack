@@ -7,9 +7,9 @@ An **OpenAppHack** Project is a fork of the openhack-vm repository.
 
 Openapphack ansible roles are used in the openapphack-vm ,Similarly few sample openapphack-yoeman-generators are also included in openapphack-yoeman-generator repository which you can use.
 
-You need to make use of the openhack ansible roles and openhack yoeman generators and build an impressive fully functional opensource application. 
+You need to make use of the openapphack ansible roles and openapphack yoeman generators and build an impressive fully functional opensource application. 
 
-You are free to make changes to vm as long as the base box and the original bundled openhack ansible roles are present in the finally openapphack project you setup.
+You are free to make changes to vm as long as the base box and the original bundled openapphack ansible roles are present in the finally openapphack project you setup.
 
 #### How do you start your openapphack-project?
 
