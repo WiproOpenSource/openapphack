@@ -29,7 +29,7 @@ The others repositories used by the project are:
 
 #### How do you start your openapphack-project?
 
-You begin by forking an openapphack-vm 
+You begin by forking an openapphack-vm and follow the instructions mentioned [here](https://github.com/WiproOpenSourcePractice/openapphack-vm/blob/master/README.md)
 
 #### How do you test your openapphack-project?
 
