@@ -2,7 +2,7 @@
 
 Openapphack is an attempt to enable end to end automation of Application Development using opensource tools for provisioning , code authoring and scaffolding.
 
-Openapphack leverages ansible and yeoman to do this. 
+Openapphack leverages vagrant, ansible and yeoman to do this. 
 
 The goal is to get a collection of fully functional , customizable apps working on the openapphack-vm from a set of plain yaml files. 
 
@@ -10,7 +10,7 @@ The goal is to get a collection of fully functional , customizable apps working 
 #### What is OpenAppHack Project?
 
 
-An **OpenAppHack** Project is a fork of the openhack-vm repository.
+An **OpenAppHack Project** is a repository forked from the openapphack-vm repository.
 
 You need to make use of the openapphack ansible roles and openapphack yoeman generators and build an impressive fully functional opensource application. 
 
