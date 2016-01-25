@@ -14,11 +14,10 @@ An **OpenAppHack Project** is a repository forked from the openapphack-vm reposi
 
 You need to make use of the openapphack ansible roles and openapphack yoeman generators and build an impressive fully functional opensource application. 
 
-You are free to make changes to vm as long as the base vagrant box and the original bundled openapphack ansible roles are present in the finally openapphack project you setup.
 
-This is also the Top level Repository for openapphack Project 
+Openapphack is also the Top level Repository for all openapphack repositories 
 
-The others repositories used by the project are:
+The others repositories used by the openapphack project are:
 
 [**Openapphack-vm**](https://github.com/WiproOpenSourcePractice/openapphack-vm) : Main repository which participants have to fork and will submit their pull requests.
 
@@ -27,13 +26,36 @@ The others repositories used by the project are:
 [**Openapphack-yoeman-generators**](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators) : Repository for the generators. You can also add your own yoeman generators that work on openapphack-vm, [more info](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators/wiki) 
 
 
+#### Contributing to this projects
+
+You can start contributing to this project by starting your own openapphack project as mentioned below.
+
 #### How do you start your openapphack-project?
 
 You begin by forking an openapphack-vm and follow the instructions mentioned [here](https://github.com/WiproOpenSourcePractice/openapphack-vm/blob/master/README.md)
+
+
+#### How do you customize your openapphack-project?
+
+You are free to tweak the vm configurations as long as the base vagrant box and the openapphack vm folder structure is maintained.Any additional customization must be done only in the yaml files.
+
+You are also free to add (**only add**) and include your own yeoman generator and ansbile roles as long as they work together on the openapphack-vm.
+
+Please take a look [here]() , on how to add your own openapphack ansible role
+
+Please take a look [here]() , on how to add your own openapphack yoeman generator
+
 
 #### How do you test your openapphack-project?
 
 clone your openapphack-vm associated with your githubid or org and run vagrant up , vagrant provision.
 
 You should be able to validate and test your vm.
+
+#### How do you submit your openapphack-project? ###
+
+You will have to submit a pull request to [openapphack repository]() to do so.
+
+Do mention your github repository url and details of  any ansible or yoeman generators you have included to get your openapphack project working.
+
 
