@@ -20,11 +20,11 @@ This is also the Top level Repository for openapphack Project
 
 The others repositories used by the project are:
 
-**Openapphack-vm** : Main repository which participants have to fork and will submit their pull requests.
+[**Openapphack-vm**](https://github.com/WiproOpenSourcePractice/openapphack-vm) : Main repository which participants have to fork and will submit their pull requests.
 
-**Openapphack-ansibleroles** : Repository for ansible roles that can be used by openapphack projects 
+[**Openapphack-ansibleroles**](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles) : Repository for ansible roles that can be used by openapphack projects , You can also add your own ansible roles that work on openapphack-vm
 
-**Openapphack-yoeman-generators** : Repository for the generators. 
+[**Openapphack-yoeman-generators**](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators) : Repository for the generators. You can also add your own yoeman generators that work on openapphack-vm, [more info](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators/wiki) 
 
 
 #### How do you start your openapphack-project?
