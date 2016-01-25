@@ -4,11 +4,9 @@ Openapphack is an attempt to enable end to end automation of Application Develop
 
 Openapphack leverages vagrant, ansible and yeoman to do this. 
 
-The goal is to get a collection of fully functional , customizable apps working on the openapphack-vm from a set of plain yaml files. 
-
+The goal is to get a collection of fully functional , customizable apps working on the openapphack-vm  that can be customized by tweaking just a set of plain yaml files. 
 
 #### What is OpenAppHack Project?
-
 
 An **OpenAppHack Project** is a repository forked from the openapphack-vm repository.
 
@@ -48,7 +46,9 @@ Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack
 
 #### How do you test your openapphack-project?
 
-clone your openapphack-vm associated with your githubid or org and run vagrant up , vagrant provision.
+clone the openapphack-vm that you have forked to your individual githubid or any new organization you have created to try out more than one openapphack-vms . 
+
+run vagrant up &  vagrant provision.
 
 You should be able to validate and test your vm.
 
