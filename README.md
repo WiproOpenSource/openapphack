@@ -41,9 +41,9 @@ You are free to tweak the vm configurations as long as the base vagrant box and 
 
 You are also free to add (**only add**) and include your own yeoman generator and ansbile roles as long as they work together on the openapphack-vm.
 
-Please take a look [here]() , on how to add your own openapphack ansible role
+Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles/wiki/Openapphack-Ansible-Roles) , on how to add your own openapphack ansible role
 
-Please take a look [here]() , on how to add your own openapphack yoeman generator
+Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators/wiki/Openapphack-Yoeman-Generators) , on how to add your own openapphack yoeman generator
 
 
 #### How do you test your openapphack-project?
@@ -54,7 +54,7 @@ You should be able to validate and test your vm.
 
 #### How do you submit your openapphack-project? ###
 
-You will have to submit a pull request to [openapphack repository]() to do so.
+You will have to submit a pull request to [openapphack repository](https://github.com/WiproOpenSourcePractice/openapphack) to do so.
 
 Do mention your github repository url and details of  any ansible or yoeman generators you have included to get your openapphack project working.
 
