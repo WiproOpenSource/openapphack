@@ -4,16 +4,16 @@ Openapphack is an attempt to enable end to end automation of Application Develop
 
 Openapphack leverages vagrant, ansible and yeoman to do this. 
 
-The goal is to get a collection of fully functional , customizable apps working on the openapphack-vm  that can be customized by tweaking just a set of plain yaml files. 
+The goal is to get a collection of fully functional , customizable apps working on the openapphack-vm from a set of plain yaml files. 
+
 
 #### What is OpenAppHack Project?
 
-An **OpenAppHack Project** is a repository forked from the openapphack-vm repository.
+An **OpenAppHack Project** is a repository forked from the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) to your github organization or individual namespace.
 
 You need to make use of the openapphack ansible roles and openapphack yoeman generators and build an impressive fully functional opensource application. 
 
-
-Openapphack is also the Top level Repository for all openapphack repositories 
+#### Openapphack repositories 
 
 The others repositories used by the openapphack project are:
 
@@ -21,7 +21,7 @@ The others repositories used by the openapphack project are:
 
 [**Openapphack-ansibleroles**](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles) : Repository for ansible roles that can be used by openapphack projects , You can also add your own ansible roles that work on openapphack-vm
 
-[**Openapphack-yoeman-generators**](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators) : Repository for the generators. You can also add your own yoeman generators that work on openapphack-vm, [more info](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators/wiki) 
+[**Openapphack-yoeman-generators**](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators) : Repository for the generators. You can also add your own yoeman generators that work on openapphack-vm, [more info](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators/wiki/Openapphack-Yoeman-Generators) 
 
 
 #### Contributing to this projects
@@ -46,16 +46,12 @@ Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack
 
 #### How do you test your openapphack-project?
 
-clone the openapphack-vm that you have forked to your individual githubid or any new organization you have created to try out more than one openapphack-vms . 
-
-run vagrant up &  vagrant provision.
+clone your openapphack-vm associated with your githubid or org and run vagrant up , vagrant provision.
 
 You should be able to validate and test your vm.
 
 #### How do you submit your openapphack-project? ###
 
-You will have to submit a pull request to [openapphack-vm repository](https://github.com/WiproOpenSourcePractice/openapphack-vm) to do so. After you add your openapphack project to [openapphackprojects.md](https://github.com/WiproOpenSourcePractice/openapphack-vm/blob/master/openapphackprojects.md)  file.   
+You will have to submit a pull request to [openapphack repository](https://github.com/WiproOpenSourcePractice/openapphack) to do so.
 
 Do mention your github repository url and details of  any ansible or yoeman generators you have included to get your openapphack project working.
-
-
