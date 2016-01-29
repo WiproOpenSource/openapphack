@@ -55,3 +55,6 @@ You should be able to validate and test your vm.
 You will have to submit a pull request to [openapphack repository](https://github.com/WiproOpenSourcePractice/openapphack) to do so.
 
 Do mention your github repository url and details of  any ansible or yoeman generators you have included to get your openapphack project working.
+
+
+Please join the community https://groups.google.com/forum/#!forum/openapphack. If you have any questions/suggestions please email to openapphack-queries@googlegroups.com 
