@@ -6,6 +6,7 @@ Openapphack leverages vagrant, ansible and yeoman to do this.
 
 The goal is to get a collection of fully functional , customizable apps working on the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) from a set of plain `yaml` files. 
 
+The broader purpose is to provide a simplified path for full stack developers to quickly get started on opensource technologies and experiment freely.
 
 ### Index
 
