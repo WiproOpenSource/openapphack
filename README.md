@@ -11,7 +11,7 @@ The goal is to get a collection of fully functional , customizable apps working 
 
 An **OpenAppHack Project** is a repository forked from the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) to your github organization or individual namespace.
 
-You need to make use of the openapphack ansible roles and openapphack yoeman generators and build an impressive fully functional opensource application. 
+You need to make use of the openapphack ansible roles and openapphack yeoman generators and build an impressive fully functional opensource application. 
 
 #### Openapphack repositories 
 
@@ -21,7 +21,7 @@ The others repositories used by the openapphack project are:
 
 [**Openapphack-ansibleroles**](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles) : Repository for ansible roles that can be used by openapphack projects , You can also add your own ansible roles that work on openapphack-vm
 
-[**Openapphack-yoeman-generators**](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators) : Repository for the generators. You can also add your own yoeman generators that work on openapphack-vm, [more info](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators/wiki/Openapphack-Yoeman-Generators) 
+[**Openapphack-yoeman-generators**](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators) : Repository for the generators. You can also add your own yeoman generators that work on openapphack-vm, [more info](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators/wiki/Openapphack-Yoeman-Generators) 
 
 
 #### Contributing to this projects
@@ -41,7 +41,7 @@ You are also free to add (**only add**) and include your own yeoman generator an
 
 Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles/wiki/Openapphack-Ansible-Roles) , on how to add your own openapphack ansible role
 
-Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators/wiki/Openapphack-Yoeman-Generators) , on how to add your own openapphack yoeman generator
+Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators/wiki/Openapphack-Yoeman-Generators) , on how to add your own openapphack yeoman generator
 
 
 #### How do you test your openapphack-project?
@@ -54,7 +54,7 @@ You should be able to validate and test your vm.
 
 You will have to submit a pull request to [openapphack repository](https://github.com/WiproOpenSourcePractice/openapphack) to do so.
 
-Do mention your github repository url and details of  any ansible or yoeman generators you have included to get your openapphack project working.
+Do mention your github repository url and details of  any ansible or yeoman generators you have included to get your openapphack project working.
 
 
 Please join the community https://groups.google.com/forum/#!forum/openapphack. If you have any questions/suggestions please email to openapphack-queries@googlegroups.com 
