@@ -19,9 +19,9 @@ The others repositories used by the openapphack project are:
 
 [**Openapphack-vm**](https://github.com/WiproOpenSourcePractice/openapphack-vm) : Main repository which participants have to fork and will submit their pull requests.
 
-[**Openapphack-ansibleroles**](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles) : Repository for ansible roles that can be used by openapphack projects , You can also add your own ansible roles that work on openapphack-vm
+[**Openapphack-ansible-roles**](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles) : Repository for ansible roles that can be used by openapphack projects , You can also add your own ansible roles that work on openapphack-vm
 
-[**Openapphack-yoeman-generators**](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators) : Repository for the generators. You can also add your own yeoman generators that work on openapphack-vm, [more info](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators/wiki/Openapphack-Yoeman-Generators) 
+[**Openapphack-yeoman-generators**](https://github.com/WiproOpenSourcePractice/openapphack-yeoman-generators) : Repository for the generators. You can also add your own yeoman generators that work on openapphack-vm, [more info](https://github.com/WiproOpenSourcePractice/openapphack-yeoman-generators/wiki/Openapphack-Yeoman-Generators) 
 
 
 #### Contributing to this projects
@@ -41,7 +41,7 @@ You are also free to add (**only add**) and include your own yeoman generator an
 
 Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles/wiki/Openapphack-Ansible-Roles) , on how to add your own openapphack ansible role
 
-Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack-yoeman-generators/wiki/Openapphack-Yoeman-Generators) , on how to add your own openapphack yeoman generator
+Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack-yeoman-generators/wiki/Openapphack-Yeoman-Generators) , on how to add your own openapphack yeoman generator
 
 
 #### How do you test your openapphack-project?
