@@ -80,6 +80,6 @@ If you have any questions/suggestions please email to [openapphack-queries@googl
 
 #### Interested in going the extra mile : 
 
-If you want to contribute to the development of openapphack main project please to take a look at the [issues](https://github.com/WiproOpenSourcePractice/openapphack/issues)
+If you want to contribute to the development of openapphack main project please do take a look at the [issues](https://github.com/WiproOpenSourcePractice/openapphack/issues)
 
 You can get details on the branching model that will be followed [here] (http://nvie.com/posts/a-successful-git-branching-model/) , 
