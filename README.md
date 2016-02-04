@@ -77,3 +77,9 @@ Do mention your github repository url and details of  any ansible or yeoman gene
 Please join the community @ https://groups.google.com/forum/#!forum/openapphack. 
 
 If you have any questions/suggestions please email to [openapphack-queries@googlegroups.com](mailto:openapphack-queries@googlegroups.com) 
+
+#### Interested in going the extra mile : 
+
+If you want to contribute to the development of openapphack main project please to take a look at the [issues](https://github.com/WiproOpenSourcePractice/openapphack/issues)
+
+You can get details on the branching model that will be followed [here] (http://nvie.com/posts/a-successful-git-branching-model/) , 
