@@ -2,13 +2,13 @@
 
 function __apptool_download {
 	CANDIDATE="$1"
-	VERSION="$2"
+	VERSION="${2:=master}"
 	mkdir -p "${OPENAPPHACK_DIR}/archives"
 	if [ ! -f "${OPENAPPHACK_DIR}/archives/${CANDIDATE}-${VERSION}.zip" ]; then
 		echo ""
 		echo "Downloading: ${CANDIDATE} ${VERSION}"
 		echo ""
-		DOWNLOAD_URL="${OPENAPPHACK_SERVICE}/download/${CANDIDATE}/${VERSION}?platform=${OPENAPPHACK_PLATFORM}"
+		DOWNLOAD_URL="${OPENAPPHACK_SERVICE}/download/${CANDIDATE}/${VERSION}/platform/${OPENAPPHACK_PLATFORM}/openapphackvm-${VERSION}.zip"
 		ZIP_ARCHIVE="${OPENAPPHACK_DIR}/archives/${CANDIDATE}-${VERSION}.zip"
 		if [[ "$openapphack_insecure_ssl" == "true" ]]; then
 			curl -k -L "${DOWNLOAD_URL}" > "${ZIP_ARCHIVE}"
