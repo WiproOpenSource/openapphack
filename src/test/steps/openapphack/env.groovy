@@ -32,6 +32,8 @@ srcDir = "${openapphackDirEnv}/src" as File
 varDir = "${openapphackDirEnv}/var" as File
 etcDir = "${openapphackDirEnv}/etc" as File
 extDir = "${openapphackDirEnv}/ext" as File
+vmsDir = "${openapphackDirEnv}/.vms" as File
+vmDir = "${openapphackDirEnv}/vm" as File
 archiveDir = "${openapphackDirEnv}/archives" as File
 tmpDir = "${openapphackDir}/tmp" as File
 
