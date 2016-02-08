@@ -69,8 +69,8 @@ IFS="$OLD_IFS"
 
 for candidate in "${OPENAPPHACK_CANDIDATES[@]}"; do
     if [[ -n "$candidate" ]]; then
-        mkdir -p "${OPENAPPHACK_DIR}/${candidate}"
-        openapphack_echo_debug "Created for ${candidate}: ${OPENAPPHACK_DIR}/${candidate}"
+        mkdir -p "${OPENAPPHACK_DIR}/.vms/${candidate}"
+        openapphack_echo_debug "Created for ${candidate}: ${OPENAPPHACK_DIR}/.vms/${candidate}"
     fi
 done
 
@@ -95,7 +95,7 @@ if [[ -z $(cat ${openapphack_config_file} | grep 'openapphack_insecure_ssl') ]];
 fi
 
 openapphack_echo_debug "Download new scripts to: ${openapphack_tmp_zip}"
-curl -s "${OPENAPPHACK_SERVICE}/res?platform=${openapphack_platform}&purpose=selfupdate" > "${openapphack_tmp_zip}"
+curl -s "${OPENAPPHACK_SERVICE}/res/platform/${openapphack_platform}/purpose/selfupdate/openapphack-cli-scripts.zip" > "${openapphack_tmp_zip}"
 
 openapphack_echo_debug "Extract script archive..."
 openapphack_echo_debug "Unziping scripts to: ${openapphack_stage_folder}"

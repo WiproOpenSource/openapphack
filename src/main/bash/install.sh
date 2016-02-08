@@ -15,6 +15,8 @@ openapphack_zip_file="${openapphack_tmp_folder}/res-${OPENAPPHACK_VERSION}.zip"
 openapphack_ext_folder="${OPENAPPHACK_DIR}/ext"
 openapphack_etc_folder="${OPENAPPHACK_DIR}/etc"
 openapphack_var_folder="${OPENAPPHACK_DIR}/var"
+openapphack_vm_folder="${OPENAPPHACK_DIR}/vm"
+openapphack_dotvms_folder="${OPENAPPHACK_DIR}/.vms"
 openapphack_config_file="${openapphack_etc_folder}/config"
 openapphack_bash_profile="${HOME}/.bash_profile"
 openapphack_profile="${HOME}/.profile"
@@ -176,6 +178,8 @@ mkdir -p "${openapphack_stage_folder}"
 mkdir -p "${openapphack_ext_folder}"
 mkdir -p "${openapphack_etc_folder}"
 mkdir -p "${openapphack_var_folder}"
+mkdir -p "${openapphack_vm_folder}"
+mkdir -p "${openapphack_dotvms_folder}"
 
 echo "Create candidate directories..."
 
@@ -194,8 +198,8 @@ for (( i=0; i <= ${#OPENAPPHACK_CANDIDATES}; i++ )); do
 	# Eliminate empty entries due to incompatibility
 	if [[ -n ${OPENAPPHACK_CANDIDATES[${i}]} ]]; then
 		CANDIDATE_NAME="${OPENAPPHACK_CANDIDATES[${i}]}"
-		mkdir -p "${OPENAPPHACK_DIR}/${CANDIDATE_NAME}"
-		echo "Created for ${CANDIDATE_NAME}: ${OPENAPPHACK_DIR}/${CANDIDATE_NAME}"
+		mkdir -p "${OPENAPPHACK_DIR}/.vms/${CANDIDATE_NAME}"
+		echo "Created for ${CANDIDATE_NAME}: ${OPENAPPHACK_DIR}/.vms/${CANDIDATE_NAME}"
 		unset CANDIDATE_NAME
 	fi
 done
@@ -207,7 +211,7 @@ echo "openapphack_auto_selfupdate=false" >> "${openapphack_config_file}"
 echo "openapphack_insecure_ssl=false" >> "${openapphack_config_file}"
 
 echo "Download script archive..."
-curl -s "${OPENAPPHACK_SERVICE}/res?platform=${openapphack_platform}&purpose=install" > "${openapphack_zip_file}"
+curl -s "${OPENAPPHACK_SERVICE}/res/platform/${openapphack_platform}/purpose/install/openapphack-cli-scripts.zip" > "${openapphack_zip_file}"
 
 echo "Extract script archive..."
 if [[ "${cygwin}" == 'true' ]]; then
