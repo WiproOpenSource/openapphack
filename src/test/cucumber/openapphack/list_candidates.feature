@@ -24,15 +24,15 @@ Feature: List Candidates
     And I see " > * master"
 
   Scenario: List an installed local version not in use
-    Given I have a local candidate "panickervinod" version "0.0.1" at "/tmp/openapphack-core"
-    And the candidate "openapphack" version "master" is already linked to "/tmp/openapphack-core"
+    Given I have a local candidate "panickervinod" version "0.0.1" at "/.vms/panickervinod/0.0.1"
+    And the candidate "openapphack" version "master" is already linked to "/.vms/openapphack/master"
     When I enter "app list openapphack"
     Then I see "Available openapphack Versions"
     And I see "   + master"
 
   Scenario: List an installed local Version in use
-    Given I have a local candidate "openapphack" version "master" at "/tmp/openapphack-core"
-    And the candidate "openapphack" version "master" is already linked to "/tmp/openapphack-core"
+    Given I have a local candidate "openapphack" version "master" at "/.vms/openapphack/master"
+    And the candidate "openapphack" version "master" is already linked to "/.vms/openapphack/master"
     And the candidate "openapphack" version "master" is the default
     When I enter "app list openapphack"
     Then I see "Available openapphack Versions"

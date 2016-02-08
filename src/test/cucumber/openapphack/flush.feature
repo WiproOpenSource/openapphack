@@ -41,11 +41,11 @@ Feature: Flush
     When I enter "app flush version"
     Then I see "No prior Remote Version found so not flushed."
 
-  Scenario: Clear out the cached Archives
-    Given the archive "panickervinod-0.0.1.zip" has been cached
-    When I enter "app flush archives"
-    Then no archives are cached
-    And I see "1 archive(s) flushed"
+  Scenario: Clear out the cached vm
+    Given the vm "panickervinod"-"0.0.1" has been cached
+    When I enter "app flush vm"
+    Then no vm are cached
+    And I see "1 vm(s) flushed"
 
   Scenario: Clear out the temporary space
     Given the file "res-1.2.0.zip" in temporary storage
