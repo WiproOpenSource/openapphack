@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Global variables
-OPENAPPHACK_SERVICE="https://github.com/panickervinod/openapphack/raw/gh-pages"
-OPENAPPHACK_BROKER_SERVICE="https://github.com/panickervinod/openapphack/raw/gh-pages/broker"
+OPENAPPHACK_SERVICE="https://raw.githubusercontent.com/WiproOpenSourcePractice/openapphack/gh-pages"
+OPENAPPHACK_BROKER_SERVICE="https://raw.githubusercontent.com/WiproOpenSourcePractice/openapphack/gh-pages/broker"
 OPENAPPHACK_VERSION="0.0.1"
 OPENAPPHACK_DIR="$HOME/.openapphack"
 
