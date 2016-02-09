@@ -99,11 +99,13 @@ function __apptool_install_candidate_version {
 	mkdir -p "${CANDIDATE_VM_LOCATION}"
   pushd .
 	cd "${CANDIDATE_VM_LOCATION}"
+
 	git clone https://github.com/${CANDIDATE}/openapphack-vm.git
 
 	#TODO check for valid tag before checkout of TAG
-	if [[ -z "${VERSION}" || "${VERSION}" != "master"]]; then
-		git checkout tags/${VERSION}
+
+	if [[ -z "${VERSION}" || "${VERSION}" != "master" ]]; then
+		git checkout "tags/${VERSION}"
   fi
 
 	# Change the 'vm' symlink , hence affecting all shells.
