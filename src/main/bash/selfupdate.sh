@@ -95,6 +95,7 @@ if [[ -z $(cat ${openapphack_config_file} | grep 'openapphack_insecure_ssl') ]];
 fi
 
 openapphack_echo_debug "Download new scripts to: ${openapphack_tmp_zip}"
+#https://github.com/WiproOpenSourcePractice/openapphack/raw/gh-pages/
 curl -s "${OPENAPPHACK_SERVICE}/res/platform/${openapphack_platform}/purpose/selfupdate/openapphack-cli-scripts.zip" > "${openapphack_tmp_zip}"
 
 openapphack_echo_debug "Extract script archive..."

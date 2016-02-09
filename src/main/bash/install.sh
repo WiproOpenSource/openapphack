@@ -211,7 +211,10 @@ echo "openapphack_auto_selfupdate=false" >> "${openapphack_config_file}"
 echo "openapphack_insecure_ssl=false" >> "${openapphack_config_file}"
 
 echo "Download script archive..."
+#https://github.com/WiproOpenSourcePractice/openapphack/raw/gh-pages/
 curl -s "${OPENAPPHACK_SERVICE}/res/platform/${openapphack_platform}/purpose/install/openapphack-cli-scripts.zip" > "${openapphack_zip_file}"
+
+
 
 echo "Extract script archive..."
 if [[ "${cygwin}" == 'true' ]]; then
