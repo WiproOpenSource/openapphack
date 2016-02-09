@@ -1,11 +1,11 @@
-Project name: Add your github repo name
+Name: {Add your github repo name}
 
-Description : Add a meaningful description
+- Description : {Add a meaningful description}
 
-Version : Add the github release tag 
+- Version : {Add the github release tag} 
 
-Github url : Add your github url
+- Github url : {Add your github url}
 
-Ansible roles: List the ansible roles leveraged
+- Ansible roles: {List the ansible roles leveraged}
 
-Yeoman generators: List the yeoman generators leveraged.
+- Yeoman generators: {List the yeoman generators leveraged.}
