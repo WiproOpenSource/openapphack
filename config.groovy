@@ -7,13 +7,13 @@ environments {
         openapphackBrokerService = 'http://localhost:8080'
 	}
 	master {
-		    openapphackService = 'http://panickervinod.github.io/openapphack'
-        openapphackBroadcastService = 'http://panickervinod.github.io/openapphack/broadcast'
-        openapphackBrokerService = 'http://panickervinod.github.io/openapphack/broker'
+		    openapphackService = 'https://raw.githubusercontent.com/WiproOpenSourcePractice/openapphack/gh-pages'
+        openapphackBroadcastService = 'https://raw.githubusercontent.com/WiproOpenSourcePractice/openapphack/gh-pages/broadcast'
+        openapphackBrokerService = 'https://raw.githubusercontent.com/WiproOpenSourcePractice/openapphack/gh-pages/broker'
 	}
 	production {
-		    openapphackService = 'http://openapphack.github.io/openapphack/broadcast'
-        openapphackBroadcastService = 'http://openapphack.github.io/openapphack/broadcast'
-        openapphackBrokerService = 'http://openapphack.github.io/openapphack/broker'
+		    openapphackService = 'https://raw.githubusercontent.com/openapphack/openapphack/gh-pages'
+        openapphackBroadcastService = 'https://raw.githubusercontent.com/openapphack/openapphack/gh-pages/broadcast'
+        openapphackBrokerService = 'https://raw.githubusercontent.com/openapphack/openapphack/gh-pages/broker'
 	}
 }
