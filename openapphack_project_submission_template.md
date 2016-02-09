@@ -4,8 +4,8 @@ Name: {Add your github repo name}
 
 - Version : {Add the github release tag} 
 
-- Github url : {Add your github url}
+- Github-URL : {Add your github url}
 
-- Ansible roles: {List the ansible roles leveraged}
+- Ansible-Roles: {List the ansible roles leveraged}
 
-- Yeoman generators: {List the yeoman generators leveraged.}
+- Yeoman-Generators: {List the yeoman generators leveraged.}
