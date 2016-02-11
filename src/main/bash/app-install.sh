@@ -100,11 +100,14 @@ function __apptool_install_candidate_version {
   pushd .
 	cd "${CANDIDATE_VM_LOCATION}"
 
+  echo "git clone https://github.com/${CANDIDATE}/openapphack-vm.git"
+
 	git clone https://github.com/${CANDIDATE}/openapphack-vm.git
 
 	#TODO check for valid tag before checkout of TAG
 
 	if [[ -z "${VERSION}" || "${VERSION}" != "master" ]]; then
+		echo "git checkout "tags/${VERSION}""
 		git checkout "tags/${VERSION}"
   fi
 
