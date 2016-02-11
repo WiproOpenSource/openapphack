@@ -83,3 +83,15 @@ If you have any questions/suggestions please email to [openapphack-queries@googl
 If you want to contribute to the development of openapphack main project please do take a look at the [issues](https://github.com/WiproOpenSourcePractice/openapphack/issues)
 
 You can get details on the branching model that will be followed [here] (http://nvie.com/posts/a-successful-git-branching-model/) , 
+
+
+## License
+
+This project is licensed under the MIT open source license.
+
+## Credits
+
+Still compiling this.. Lot of Folks to thank, very are standing on the shoulder of a lot of excellant programmers and a lot of opensource projects.
+
+here is a [list]().. 
+
