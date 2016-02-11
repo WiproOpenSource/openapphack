@@ -91,7 +91,7 @@ This project is licensed under the MIT open source license.
 
 ## Credits
 
-Still compiling this.. Lot of Folks to thank, very are standing on the shoulder of a lot of excellant programmers and a lot of opensource projects.
+Still compiling this.. Lot of Folks to thank, very are standing on the shoulders of a lot of excellant programmers and a lot of opensource projects.
 
 here is a [list]().. 
 
