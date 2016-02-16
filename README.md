@@ -93,5 +93,5 @@ This project is licensed under the MIT open source license.
 
 Still compiling this.. Lot of Folks to thank, we are standing on the shoulders of a lot of excellant programmers and a lot of opensource projects.
 
-here is a [list]().. 
+here is a [list](https://github.com/WiproOpenSourcePractice/openapphack/wiki/Opensource-Projects-that-got-us-where-we-are-,-and-keeps-us-inspired-to-do-more..).. 
 
