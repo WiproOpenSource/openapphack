@@ -23,9 +23,9 @@ The broader purpose is to provide a simplified path for full stack developers to
   - [How do you submit your openapphack-project?](https://github.com/WiproOpenSourcePractice/openapphack#how-do-you-submit-your-openapphack-project)
 
 
-### What is OpenAppHack Project?
+### What is OpenAppHack VM Project?
 
-An **OpenAppHack Project** is a repository forked from the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) to your github organization or individual namespace.
+An **OpenAppHack VM Project** is a repository forked from the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) to your github organization or individual namespace.
 
 You need to make use of the openapphack [ansible](http://www.ansible.com/) roles and openapphack [yeoman](http://yeoman.io/) generators and build an impressive fully functional opensource application. 
 
