@@ -4,7 +4,9 @@
 
 Openapphack is an attempt to enable end to end automation of Application Development using opensource tools for provisioning , code authoring and scaffolding.
 
-Openapphack leverages vagrant, ansible and yeoman to do this. 
+Openapphack is an opensource application vm repo aggregrator.  
+
+Openapphack-vm leverages vagrant, ansible and yeoman to do this. 
 
 The goal is to get a collection of fully functional , customizable apps working on the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) from a set of plain `yaml` files. 
 
@@ -12,7 +14,7 @@ The broader purpose is to provide a simplified path for full stack developers to
 
 ### Index
 
-- [What is OpenAppHack Project?](https://github.com/WiproOpenSourcePractice/openapphack#what-is-openapphack-project)
+- [What is OpenAppHack VM Project?](https://github.com/WiproOpenSourcePractice/openapphack#what-is-openapphack-vm-project)
 - [Openapphack repositories](https://github.com/WiproOpenSourcePractice/openapphack#openapphack-repositories)
 - [Contributing to this project](https://github.com/WiproOpenSourcePractice/openapphack#contributing-to-this-project)
 - [How do you start your openapphack-project?](https://github.com/WiproOpenSourcePractice/openapphack#how-do-you-start-your-openapphack-project)
@@ -43,9 +45,9 @@ The others repositories used by the openapphack project are:
 
 ### Contributing to this project
 
-You can start contributing to this project by starting your own openapphack project as mentioned below.
+You can start contributing to this project by starting your own openapphack-vm project as mentioned below.
 
-#### How do you start your openapphack-project?
+#### How do you start your openapphack-vm-project?
 
 You begin by forking an [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm/) and follow the instructions mentioned [here](https://github.com/WiproOpenSourcePractice/openapphack-vm/blob/master/README.md)
 
