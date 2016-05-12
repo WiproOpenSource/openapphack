@@ -8,9 +8,9 @@ Openapphack and its subprojects help aggregates ,validate and tests github repos
 
 Openapphack also enables end to end automation of application deployment which can be leveraged for prototyping and distributed deployment of opensource applications . 
 
-Openapphack use opensource tools for provisioning , code authoring and scaffolding.
+Openapphack uses opensource tools for provisioning , code authoring and scaffolding.
 
-Openapphack-vms/clusters leverages vagrant, ansible ,yeoman,virtualbox and docker to do this. 
+Openapphack-vms/clusters leverages vagrant, ansible ,yeoman,virtualbox and docker for automation. 
 
 The goal is to get a collection of fully functional , customizable apps working on the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) from a set of plain `yaml` files. 
 
