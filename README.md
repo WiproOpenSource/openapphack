@@ -4,18 +4,17 @@
 
 Openapphack is an opensource application aggregrator.
 
-Openapphack and its subprojects help aggregates ,validates and tests git repositories that derived from  openapphack-vm, openapphack-cluster, openapphack-pi-vm, openapphack-pi-cluster repositories
+Openapphack and its subprojects help aggregates ,validate and tests github repositories that derived from  openapphack-vm, openapphack-cluster, openapphack-pi-vm, openapphack-pi-cluster repositories
 
-Openapphack is also enables end to end automation of application deployment which can be leveraged for prototyping and distributed deployment of opensource applications . 
+Openapphack also enables end to end automation of application deployment which can be leveraged for prototyping and distributed deployment of opensource applications . 
 
 Openapphack use opensource tools for provisioning , code authoring and scaffolding.
- 
 
-Openapphack-vm leverages vagrant, ansible and yeoman to do this. 
+Openapphack-vms/clusters leverages vagrant, ansible ,yeoman,virtualbox and docker to do this. 
 
 The goal is to get a collection of fully functional , customizable apps working on the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) from a set of plain `yaml` files. 
 
-The broader purpose is to provide a simplified path for full stack developers to quickly get started on opensource technologies and experiment freely.
+The broader purpose is to provide a simplified path for full stack developers to quickly get started on opensource technologies and experiment freely on opensource applications
 
 ### Index
 
@@ -50,9 +49,9 @@ The others repositories used by the openapphack project are:
 
 ### Contributing to this project
 
-You can start contributing to this project by starting your own openapphack-vm project as mentioned below.
+You can start contributing to this project by starting your own openapphack-vm or openapphack-cluster project as mentioned below.
 
-#### How do you start your openapphack-vm-project?
+#### How do you start your openapphack project?
 
 You begin by forking an [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm/) and follow the instructions mentioned [here](https://github.com/WiproOpenSourcePractice/openapphack-vm/blob/master/README.md)
 
