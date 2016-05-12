@@ -2,9 +2,14 @@
 
 [![Join the chat at https://gitter.im/WiproOpenSourcePractice/openapphack](https://badges.gitter.im/WiproOpenSourcePractice/openapphack.svg)](https://gitter.im/WiproOpenSourcePractice/openapphack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Openapphack is an attempt to enable end to end automation of Application Development using opensource tools for provisioning , code authoring and scaffolding.
+Openapphack is an opensource application aggregrator.
 
-Openapphack is an opensource application vm repo aggregrator.  
+Openapphack and its subprojects help aggregates ,validates and tests git repositories that derived from  openapphack-vm, openapphack-cluster, openapphack-pi-vm, openapphack-pi-cluster repositories
+
+Openapphack is also enables end to end automation of application deployment which can be leveraged for prototyping and distributed deployment of opensource applications . 
+
+Openapphack use opensource tools for provisioning , code authoring and scaffolding.
+ 
 
 Openapphack-vm leverages vagrant, ansible and yeoman to do this. 
 
@@ -14,7 +19,7 @@ The broader purpose is to provide a simplified path for full stack developers to
 
 ### Index
 
-- [What is OpenAppHack VM Project?](https://github.com/WiproOpenSourcePractice/openapphack#what-is-openapphack-vm-project)
+- [What is OpenAppHack Project?](https://github.com/WiproOpenSourcePractice/openapphack#what-is-openapphack-vm-project)
 - [Openapphack repositories](https://github.com/WiproOpenSourcePractice/openapphack#openapphack-repositories)
 - [Contributing to this project](https://github.com/WiproOpenSourcePractice/openapphack#contributing-to-this-project)
 - [How do you start your openapphack-project?](https://github.com/WiproOpenSourcePractice/openapphack#how-do-you-start-your-openapphack-project)
