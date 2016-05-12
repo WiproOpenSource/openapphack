@@ -4,7 +4,7 @@
 
 Openapphack is an opensource application aggregrator.
 
-Openapphack and its subprojects help aggregates ,validate and tests github repositories that derived from  openapphack-vm, openapphack-cluster, openapphack-pi-vm, openapphack-pi-cluster repositories
+Openapphack and its subprojects help aggregate ,validate and test github repositories that derived from  openapphack-vm, openapphack-cluster, openapphack-pi-vm, openapphack-pi-cluster repositories
 
 Openapphack also enables end to end automation of application deployment which can be leveraged for prototyping and distributed deployment of opensource applications . 
 
