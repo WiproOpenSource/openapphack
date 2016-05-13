@@ -29,18 +29,16 @@ The broader purpose is to provide a simplified path for full stack developers to
 
 ### What is OpenAppHack Project?
 
-An openapphack project is a git repository derived from the project templates
+An openapphack project is a git repository derived from one of the openapphack vm or cluster project templates
 
 The project templates are
 
-- openapphack-vm
-- openapphack-pi-vm
-- openapphack-cluster-vm
-- openapphack-cluster-pi-vm
+- openapphack-vm  : Template used for setting up a single openapphack vm. 
+- openapphack-pi-vm :Template used for setting up a single openapphack vm on RPI's.
+- openapphack-cluster : Template used for setting up multi or  load balanced/ HA cluster for the application.
+- openapphack-pi-cluster : Template used for setting up multi or  load balanced /HA cluster on openapphack RPI cluster.
 
- 
-
-
+All openapphack projects github repositories must follows a naming convention and github repository names must end with either an xxx-vm, xxx-pi-vm ,xxx-pi-cluster or xxx-cluster to be picked up by the openapphack for analysis and testing.   
 
 An **OpenAppHack VM Project** is a repository forked from the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) to your github organization or individual namespace.
 
