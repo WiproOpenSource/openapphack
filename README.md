@@ -40,10 +40,6 @@ The project templates are
 
 All openapphack projects github repositories must follows a naming convention and github repository names must end with either an xxx-vm, xxx-pi-vm ,xxx-pi-cluster or xxx-cluster to be picked up by the openapphack for analysis and testing.   
 
-An **OpenAppHack VM Project** is a repository forked from the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) to your github organization or individual namespace.
-
-You need to make use of the openapphack [ansible](http://www.ansible.com/) roles and openapphack [yeoman](http://yeoman.io/) generators and build an impressive fully functional opensource application. 
-
 ***
 
 ### Openapphack subprojects and repositories 
