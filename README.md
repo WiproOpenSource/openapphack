@@ -46,15 +46,19 @@ You need to make use of the openapphack [ansible](http://www.ansible.com/) roles
 
 ***
 
-### Openapphack repositories 
+### Openapphack subprojects and repositories 
 
-The others repositories used by the openapphack project are:
+The others repositories used by the openapphack project are listed below:
 
-[**Openapphack-vm**](https://github.com/WiproOpenSourcePractice/openapphack-vm) : Main repository which participants have to fork and will submit their pull requests.
+[**Openapphack-vm**](https://github.com/WiproOpenSourcePractice/openapphack-vm) : The repository from which all openapphack-xxx-vm repos are derived. 
 
-[**Openapphack-ansible-roles**](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles) : Repository for ansible roles that can be used by openapphack projects, You can also add your own ansible roles that work on openapphack-vm
+[**Openapphack-cluster**](https://github.com/WiproOpenSourcePractice/openapphack-cluster) : The repository from which all openapphack-xxx-cluster repos are derived.. 
 
-[**Openapphack-yeoman-generators**](https://github.com/WiproOpenSourcePractice/openapphack-yeoman-generators) : Repository for the generators. You can also add your own yeoman generators that work on openapphack-vm, [more info](https://github.com/WiproOpenSourcePractice/openapphack-yeoman-generators/wiki/Openapphack-Yeoman-Generators) 
+[**Openapphack-ansible-roles**](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles) : Repository used to organize all openapphack ansible roles . These can be used by openapphack projects, You can also add your own ansible roles that work on openapphack-vm
+
+[**Openapphack-yeoman-generators**](https://github.com/WiproOpenSourcePractice/openapphack-yeoman-generators) : Repository used organize  all yeoman generators used by openapphack vm/clusters. You can also add your own yeoman generators that work on openapphack-vm, [more info](https://github.com/WiproOpenSourcePractice/openapphack-yeoman-generators/wiki/Openapphack-Yeoman-Generators) 
+
+[**Openapphack-stat**](https://github.com/WiproOpenSourcePractice/openapphack-stat) : The repository that will be updated periodically with test results and details from validated openapphack-vm/clusters.. 
 
 ***
 
