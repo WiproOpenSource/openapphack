@@ -12,7 +12,7 @@ Openapphack uses opensource tools for provisioning , code authoring and scaffold
 
 Openapphack-vms/clusters leverages vagrant, ansible ,yeoman,virtualbox and docker for automation. 
 
-The goal is to get a collection of fully functional , customizable apps working on the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) from a set of plain `yaml` files. 
+The goal is to get a collection of fully functional , opensource apps working on the [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm) or [openapphack-cluster](https://github.com/WiproOpenSourcePractice/openapphack-cluster) that can be customized using plain `yaml` files. 
 
 The broader purpose is to provide a simplified path for full stack developers to quickly get started on opensource technologies and experiment freely on opensource applications
 
