@@ -58,7 +58,7 @@ The others repositories used by the openapphack project are listed below:
 
 [**Openapphack-yeoman-generators**](https://github.com/WiproOpenSourcePractice/openapphack-yeoman-generators) : Repository used organize  all yeoman generators used by openapphack vm/clusters. You can also add your own yeoman generators that work on openapphack-vm, [more info](https://github.com/WiproOpenSourcePractice/openapphack-yeoman-generators/wiki/Openapphack-Yeoman-Generators) 
 
-[**Openapphack-stat**](https://github.com/WiproOpenSourcePractice/openapphack-stat) : The repository that will be updated periodically with test results and details from validated openapphack-vm/clusters.. 
+[**Openapphack-stats**](https://github.com/WiproOpenSourcePractice/openapphack-stats) : The repository that will be updated periodically with test results and details from validated openapphack-vm/clusters.. 
 
 ***
 
