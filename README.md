@@ -89,14 +89,13 @@ An openapphack-pi-cluster can be used to test your openapphack pi-vm/cluster pro
 
 ### Contributing to this project
 
-You can start contributing to this project by starting your own openapphack-vm or openapphack-cluster project as mentioned below.
+You can start contributing to this project by joining in on any of the openapphack projects mentioned above.
 
 #### How do you start your openapphack project?
 
-You begin by forking an [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm/) and follow the instructions mentioned [here](https://github.com/WiproOpenSourcePractice/openapphack-vm/blob/master/README.md)
+This section is currently being revamped as openapphack project is being reorganized to enable greated community participation.
 
-
-Please join the community @ https://groups.google.com/forum/#!forum/openapphack. 
+Please join the community @ https://groups.google.com/forum/#!forum/openapphack , to know more about the project. 
 
 If you have any questions/suggestions please email to [openapphack-queries@googlegroups.com](mailto:openapphack-queries@googlegroups.com) 
 
