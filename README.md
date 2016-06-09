@@ -48,7 +48,7 @@ Openapphack-vms/clusters leverages vagrant, ansible ,yeoman,virtualbox and docke
 
 [**Openapphack-shell(oah)**](https://github.com/WiproOpenSourcePractice/openapphack-shell) : Shell for openapphack.. 
 
-[**OpenAppHack-launcher(oah-app)**]: Openapphack Launcher 
+[**OpenAppHack-launcher(oah-app)**](): Openapphack Launcher 
 
 [**Openapphack-stats**](https://github.com/WiproOpenSourcePractice/openapphack-stats) : The repository that will be updated periodically with test results and details from validated openapphack-vm/clusters.. 
 
