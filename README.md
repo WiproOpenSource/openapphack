@@ -58,16 +58,21 @@ Openapphack-vms/clusters leverages vagrant, ansible ,yeoman,virtualbox and docke
 
 [**Openapphack-cluster**](https://github.com/WiproOpenSourcePractice/openapphack-cluster) : The repository from which all openapphack-xxx-cluster repos are derived.. 
 
+[**Openapphack-pi-vm**](https://github.com/WiproOpenSourcePractice/openapphack-pi-vm) : The repository from which all openapphack-xxx-pi-vm repos are derived. 
+
+[**Openapphack-pi-cluster**](https://github.com/WiproOpenSourcePractice/openapphack-pi-cluster) : The repository from which all openapphack-xxx-pi-cluster repos are derived.. 
+
 **Openapphack Extension Projects**
 
-This includes the various 
-- oah-launcher-plugins,
-- oah-ansible-roles,
-- oah-vms,
-- oah-clusters,
-- oah-recipes,
-- oah-pi-clusters,
-- oah-pi-vms
+This includes the various git repositories 
+
+- openapphack-XXXX-launcher-plugins(oah-launcher-plugins),
+- ansible-role-openapphack-XXXX (oah-ansible-roles),
+- openapphack-XXXX-vm (oah-vms),
+- openapphack-XXXX-cluster (oah-clusters),
+- openapphack-XXXX-recipes (oah-recipes),
+- openapphack-XXXX-pi-cluster (oah-pi-clusters),
+- openapphack-XXXX-pi-vm (oah-pi-vms)
 
 **Openapphack dev tools projects**
 
@@ -80,7 +85,7 @@ This includes the various
 ***
 ### Openapphack PI Cluster
 
-Use can use an openapphack-pi-cluster to test your openapphack pi-vm/cluster projects
+An openapphack-pi-cluster can be used to test your openapphack pi-vm/cluster projects
 
 
 
