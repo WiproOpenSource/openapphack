@@ -11,13 +11,10 @@ The broader purpose is to provide a simplified path for full stack developers to
 ### Index
 
 - [What is OpenAppHack Project?](https://github.com/WiproOpenSourcePractice/openapphack#what-is-openapphack-vm-project)
-- [Openapphack repositories](https://github.com/WiproOpenSourcePractice/openapphack#openapphack-repositories)
-- [Contributing to this project](https://github.com/WiproOpenSourcePractice/openapphack#contributing-to-this-project)
-- [How do you start your openapphack-project?](https://github.com/WiproOpenSourcePractice/openapphack#how-do-you-start-your-openapphack-project)
-  - [How do you customize your openapphack-project?](https://github.com/WiproOpenSourcePractice/openapphack#how-do-you-customize-your-openapphack-project)
-  - [How do you test your openapphack-project?](https://github.com/WiproOpenSourcePractice/openapphack#how-do-you-test-your-openapphack-project)
-  - [How do you submit your openapphack-project?](https://github.com/WiproOpenSourcePractice/openapphack#how-do-you-submit-your-openapphack-project)
-
+- [Openapphack subprojects and repositories ](https://github.com/WiproOpenSourcePractice/openapphack#openapphack-subprojects-and-repositories )
+ - [Openapphack Template Projects](https://github.com/WiproOpenSourcePractice/openapphack#openapphack-template-projects)
+ - [Openapphack Extension Projects](https://github.com/WiproOpenSourcePractice/openapphack#openapphack-extension-projects)
+- [Openapphack PI Cluster](https://github.com/WiproOpenSourcePractice/openapphack#openapphack-pi-cluster)
 
 ### What is OpenAppHack Project?
 
@@ -42,6 +39,7 @@ Openapphack-vms/clusters leverages vagrant, ansible ,yeoman,virtualbox and docke
 
 ***
 
+
 ### Openapphack subprojects and repositories 
 
 **Openapphack core projects**
@@ -52,7 +50,7 @@ Openapphack-vms/clusters leverages vagrant, ansible ,yeoman,virtualbox and docke
 
 [**Openapphack-stats**](https://github.com/WiproOpenSourcePractice/openapphack-stats) : The repository that will be updated periodically with test results and details from validated openapphack-vm/clusters.. 
 
-**Openapphack Template Projects**
+#### **Openapphack Template Projects**
 
 [**Openapphack-vm**](https://github.com/WiproOpenSourcePractice/openapphack-vm) : The repository from which all openapphack-xxx-vm repos are derived. 
 
@@ -62,7 +60,7 @@ Openapphack-vms/clusters leverages vagrant, ansible ,yeoman,virtualbox and docke
 
 [**Openapphack-pi-cluster**](https://github.com/WiproOpenSourcePractice/openapphack-pi-cluster) : The repository from which all openapphack-xxx-pi-cluster repos are derived.. 
 
-**Openapphack Extension Projects**
+##### **Openapphack Extension Projects**
 
 This includes the various git repositories 
 
@@ -74,7 +72,7 @@ This includes the various git repositories
 - openapphack-XXXX-pi-cluster (oah-pi-clusters),
 - openapphack-XXXX-pi-vm (oah-pi-vms)
 
-**Openapphack dev tools projects**
+#### **Openapphack dev tools projects**
 
 [**Openapphack-ansible-roles**](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles) : Repository used to organize all openapphack ansible roles . These can be used by openapphack projects, You can also add your own ansible roles that work on openapphack-vm
 
@@ -87,8 +85,6 @@ This includes the various git repositories
 
 An openapphack-pi-cluster can be used to test your openapphack pi-vm/cluster projects
 
-
-
 ### Contributing to this project
 
 You can start contributing to this project by starting your own openapphack-vm or openapphack-cluster project as mentioned below.
@@ -96,16 +92,6 @@ You can start contributing to this project by starting your own openapphack-vm o
 #### How do you start your openapphack project?
 
 You begin by forking an [openapphack-vm](https://github.com/WiproOpenSourcePractice/openapphack-vm/) and follow the instructions mentioned [here](https://github.com/WiproOpenSourcePractice/openapphack-vm/blob/master/README.md)
-
-#### How do you customize your openapphack-project?
-
-You are free to tweak the vm configurations as long as the base vagrant box and the openapphack vm folder structure is maintained. Any additional customization must be done only in the `yaml` files.
-
-You are also free to add (**only add**) and include your own yeoman generator and ansible roles as long as they work together on the openapphack-vm.
-
-Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack-ansible-roles/wiki/Openapphack-Ansible-Roles) , on how to add your own openapphack ansible role
-
-Please take a look [here](https://github.com/WiproOpenSourcePractice/openapphack-yeoman-generators/wiki/Openapphack-Yeoman-Generators) , on how to add your own openapphack yeoman generator
 
 
 Please join the community @ https://groups.google.com/forum/#!forum/openapphack. 
