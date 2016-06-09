@@ -6,7 +6,7 @@ Openapphack is an opensource application aggregrator.
 
 Simplifies experimenting with opensource application . OpenAppHack projects can be used for testing and rapid prototyping of opensource solutions . OpenAppHack projects can also be run on low cost RPI cluster
 
-The broader purpose is to provide a simplified path for full stack developers to quickly get started on opensource technologies and experiment freely on opensource applications
+The broader purpose is to provide a simplified path for full stack developers to quickly get started on opensource applications and experiment freely on deciding which opensource applications should be considered for building an opensource solution.
 
 ### Index
 
