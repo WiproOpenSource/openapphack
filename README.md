@@ -85,6 +85,8 @@ This includes the various git repositories
 
 An openapphack-pi-cluster can be used to test your openapphack pi-vm/cluster projects
 
+![Image of a DIY openapphack pi cluster](https://cloud.githubusercontent.com/assets/8347838/15924963/ab4d9504-2e52-11e6-8e04-c58c2bcb0fb2.png)
+
 ### Contributing to this project
 
 You can start contributing to this project by starting your own openapphack-vm or openapphack-cluster project as mentioned below.
