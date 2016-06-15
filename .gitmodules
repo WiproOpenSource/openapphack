@@ -1,0 +1,9 @@
+[submodule "launcher"]
+	path = launcher
+	url = https://github.com/WiproOpenSourcePractice/openapphack-launcher.git
+[submodule "shell"]
+	path = shell
+	url = https://github.com/WiproOpenSourcePractice/openapphack-shell.git
+[submodule "tools/generators"]
+	path = tools/generators
+	url = https://github.com/WiproOpenSourcePractice/generator-openapphack.git

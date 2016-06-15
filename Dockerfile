@@ -1,8 +1,8 @@
-FROM dockerfile/java
+FROM dockerfile/ansible
 
 # Copy all here
-RUN mkdir -p /usr/src/app
-ADD . /usr/src/app
-WORKDIR /usr/src/app
+RUN mkdir -p /usr/src/oah
+ADD . /usr/src/oah
+WORKDIR /usr/src/oah
 
-CMD ["./gradlew"]
+CMD ["./bin/install.sh"]
