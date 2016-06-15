@@ -1,0 +1,4 @@
+ # from GitHub, overriding the name and specifying a specific tag
+ - src: https://github.com/openapphack/ansible-role-openapphack-setup
+   version: master
+   name: openapphack.setup
