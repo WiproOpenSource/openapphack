@@ -1,0 +1,7 @@
+---
+  host: All
+  task:
+    - name: "Installing Openapphack shell"
+      shell: echo "Installing OAH shell"
+  roles:
+    openapphack.setup

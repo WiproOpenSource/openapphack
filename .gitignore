@@ -1,0 +1,13 @@
+*~
+.#*
+.classpath
+.gradle/
+.gradletasknamecache
+.pid.lock
+.settings/
+\#*
+build/
+classes
+mongo.json
+out/
+target/
