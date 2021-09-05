@@ -95,7 +95,7 @@ You can start contributing to this project by joining in on any of the openappha
 
 This section is currently being revamped as openapphack project is being reorganized to enable greated community participation.
 
-Please join the community @ https://groups.google.com/forum/#!forum/openapphack , to know more about the project. 
+Please join the community [@OpenAppHack](https://groups.google.com/forum/#!forum/openapphack) , to know more about the project. 
 
 If you have any questions/suggestions please email to [openapphack-queries@googlegroups.com](mailto:openapphack-queries@googlegroups.com) 
 
@@ -103,7 +103,7 @@ If you have any questions/suggestions please email to [openapphack-queries@googl
 
 If you want to contribute to the development of openapphack main project please do take a look at the [issues](https://github.com/WiproOpenSourcePractice/openapphack/issues)
 
-You can get details on the branching model that will be followed [here] (http://nvie.com/posts/a-successful-git-branching-model/) , 
+You can get details on the branching model that will be followed [here](http://nvie.com/posts/a-successful-git-branching-model/) , 
 
 
 ## License
